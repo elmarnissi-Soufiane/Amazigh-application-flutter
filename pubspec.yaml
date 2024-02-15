@@ -1,0 +1,38 @@
+name: tefenaghe_ap
+description: tefenaghe amazigh
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_downloader: ^1.5.1
+  #audioplayers: ^0.20.1
+  #audioplayers: ^5.1.0
+  #just_audio: ^0.9.35
+  audioplayers: ^0.19.0
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.0
+  tflite: ^1.1.2
+  http: ^0.13.3
+  image_picker: ^0.8.7+1
+  #flutter_sound: ^10.1.6
+  flutter_sound: ^9.2.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - audios/
+    - courses/
+    - models/
